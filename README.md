@@ -26,7 +26,9 @@ $ gcc consumer.cpp -pthread -lrt -o consumer
 $ ./producer & ./consumer &
 ```
 
-Console output should show that producer is starting to produce items and that consumer is starting to consume them. The program is hardcoded to only running 10 iterations. 
+Console output should show that producer is starting to produce items and that consumer is starting to consume them. The program is hardcoded to only running 10 iterations.
+
+![alt text](https://github.com/huugelibuugeli/OS_Assignment/blob/main/OS_screenshot.png)
 
 
 
